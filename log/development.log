@@ -1,0 +1,1456 @@
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 19:17:34 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 33ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 20:20:17 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (5.5ms)
+Completed 200 OK in 46ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (13.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (10.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170305202431"]]
+  [1m[35m (11.3ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 20:30:19 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 34ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 20:33:40 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 945ms (Views: 935.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 146.115.166.90 at 2017-03-05 20:33:41 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 146.115.166.90 at 2017-03-05 20:33:41 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 146.115.166.90 at 2017-03-05 20:33:41 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 146.115.166.90 at 2017-03-05 20:33:41 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 146.115.166.90 at 2017-03-05 20:33:41 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 146.115.166.90 at 2017-03-05 20:33:41 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 146.115.166.90 at 2017-03-05 20:33:41 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 146.115.166.90 at 2017-03-05 20:33:41 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 146.115.166.90 at 2017-03-05 20:33:41 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 20:33:45 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 20:33:45 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 20:36:02 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 20:36:03 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 20:36:04 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 20:36:18 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 313ms (Views: 303.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 20:36:20 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 20:36:20 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 20:37:01 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 342ms (Views: 331.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 20:37:04 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 20:37:04 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2/callback?state=d453e675d5e7ab84ec0fbc039f7ec159d9943001bc080d29&code=4/keJgrlWY_LhGl4dGjc-V6ylWJpn8opJvCqwjnPZ-dLs" for 146.115.166.90 at 2017-03-05 20:37:08 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"d453e675d5e7ab84ec0fbc039f7ec159d9943001bc080d29", "code"=>"4/keJgrlWY_LhGl4dGjc-V6ylWJpn8opJvCqwjnPZ-dLs", "provider"=>"google_oauth2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."provider" = ? AND "users"."uid" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["provider", "google_oauth2"], ["uid", "103119254185515660677"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "users" ("provider", "uid", "name", "oauth_token", "oauth_expires_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["provider", "google_oauth2"], ["uid", "103119254185515660677"], ["name", "Ted McNulty"], ["oauth_token", "ya29.GlsFBOJV_2EwsMdztSDDJIMoVkZ3Z8cY0af6GuFrPreCydsvcgXgObfDdaQ9aMA4GQjFUlkhFppgnL5cQPbPSxcXRg_rD-FvyvL4SU4tM-6K6nZ8JLbaQY7ymur2"], ["oauth_expires_at", "2017-03-05 21:37:09.000000"], ["created_at", "2017-03-05 20:37:09.343284"], ["updated_at", "2017-03-05 20:37:09.343284"]]
+  [1m[36m (14.3ms)[0m  [1mcommit transaction[0m
+Redirected to https://duel-links-tedmcn.c9users.io/
+Completed 302 Found in 82ms (ActiveRecord: 16.8ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 20:37:09 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 55ms (Views: 53.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 20:37:22 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signout" for 146.115.166.90 at 2017-03-05 20:37:59 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+Redirected to https://duel-links-tedmcn.c9users.io/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 20:37:59 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 20:38:01 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 20:38:01 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2/callback?state=feb0935e2a1b14d72d9d0279e907d539c4b830e760991b90&code=4/O4uJYEEYr2NRRQLMFvqEjNstCh2js2__6m-ZmMuwW_0" for 146.115.166.90 at 2017-03-05 20:38:02 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"feb0935e2a1b14d72d9d0279e907d539c4b830e760991b90", "code"=>"4/O4uJYEEYr2NRRQLMFvqEjNstCh2js2__6m-ZmMuwW_0", "provider"=>"google_oauth2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."provider" = ? AND "users"."uid" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["provider", "google_oauth2"], ["uid", "103119254185515660677"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "oauth_token" = ?, "oauth_expires_at" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["oauth_token", "ya29.GlsFBLbry2Rnbpsi5ld3UH7c2ZX58UlWyvcTDH3DwTohcHKcgi5HZys7z2BlTgyLfRpGhueXT20OcDMj1MjiH-lxRn4W6GXDkRGBGB8KHr7-HFQVrjIRzjxDIPWl"], ["oauth_expires_at", "2017-03-05 21:38:02.000000"], ["updated_at", "2017-03-05 20:38:03.017739"], ["id", 1]]
+  [1m[36m (13.2ms)[0m  [1mcommit transaction[0m
+Redirected to https://duel-links-tedmcn.c9users.io/
+Completed 302 Found in 20ms (ActiveRecord: 14.0ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 20:38:03 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signout" for 146.115.166.90 at 2017-03-05 20:38:05 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+Redirected to https://duel-links-tedmcn.c9users.io/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 20:38:05 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (13.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (10.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (12.0ms)[0m  [1m    CREATE TABLE `Cards` (
+    	`card_id` VARCHAR(255) NOT NULL,
+    	`key` VARCHAR(255) NOT NULL UNIQUE DEFAULT '-',
+    	`attack` INT NOT NULL DEFAULT '-',
+    	`defense` INT NOT NULL DEFAULT '-',
+    	`level` INT NOT NULL DEFAULT '-',
+    	`type` VARCHAR(255) NOT NULL,
+    	`attribute` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`monster_type` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`card_effect_type` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`property` VARCHAR(255) NOT NULL DEFAULT '-',
+    	PRIMARY KEY (`card_id`)
+    );
+    
+    CREATE TABLE `Users` (
+    	`user_id` INT NOT NULL,
+    	PRIMARY KEY (`user_id`)
+    );
+    
+    CREATE TABLE `Users-Decks` (
+    	`deck_id` INT NOT NULL,
+    	`user_id` INT NOT NULL,
+    	PRIMARY KEY (`deck_id`)
+    );
+    
+    CREATE TABLE `Decks-Cards` (
+    	`user_id` INT NOT NULL,
+    	`card_id` VARCHAR(255) NOT NULL
+    );
+    
+    CREATE TABLE `Combos-Cards` (
+    	`combo_id` INT NOT NULL AUTO_INCREMENT,
+    	`card_id` INT NOT NULL,
+    	PRIMARY KEY (`combo_id`)
+    );
+    
+    CREATE TABLE `Decks-Combos` (
+    	`deck_id` INT NOT NULL,
+    	`combo_id` INT NOT NULL
+    );
+    
+    ALTER TABLE `Users-Decks` ADD CONSTRAINT `Users-Decks_fk0` FOREIGN KEY (`user_id`) REFERENCES `Users`(`user_id`);
+    
+    ALTER TABLE `Decks-Cards` ADD CONSTRAINT `Decks-Cards_fk0` FOREIGN KEY (`user_id`) REFERENCES `Users-Decks`(`user_id`);
+    
+    ALTER TABLE `Decks-Cards` ADD CONSTRAINT `Decks-Cards_fk1` FOREIGN KEY (`card_id`) REFERENCES `Cards`(`card_id`);
+    
+    ALTER TABLE `Combos-Cards` ADD CONSTRAINT `Combos-Cards_fk0` FOREIGN KEY (`card_id`) REFERENCES `Cards`(`card_id`);
+    
+    ALTER TABLE `Decks-Combos` ADD CONSTRAINT `Decks-Combos_fk0` FOREIGN KEY (`deck_id`) REFERENCES `Users-Decks`(`deck_id`);
+    
+    ALTER TABLE `Decks-Combos` ADD CONSTRAINT `Decks-Combos_fk1` FOREIGN KEY (`combo_id`) REFERENCES `Combos-Cards`(`combo_id`);
+
+[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170305202431"]]
+  [1m[36m (10.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='sqlite_autoindex_Cards_2' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='sqlite_autoindex_Cards_2' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='sqlite_autoindex_Cards_1' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='sqlite_autoindex_Cards_1' AND type='index'
+
+  [1m[36m (16.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (13.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (14.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (10.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (11.1ms)[0m  [1m    CREATE TABLE `Cards` (
+    	`card_id` VARCHAR(255) NOT NULL,
+    	`key` VARCHAR(255) NOT NULL UNIQUE DEFAULT '-',
+    	`attack` INT NOT NULL DEFAULT '-',
+    	`defense` INT NOT NULL DEFAULT '-',
+    	`level` INT NOT NULL DEFAULT '-',
+    	`type` VARCHAR(255) NOT NULL,
+    	`attribute` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`monster_type` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`card_effect_type` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`property` VARCHAR(255) NOT NULL DEFAULT '-',
+    	PRIMARY KEY (`card_id`)
+    );
+[0m
+  [1m[35m (8.7ms)[0m      CREATE TABLE `Users` (
+    	`user_id` INT NOT NULL,
+    	PRIMARY KEY (`user_id`)
+    );
+
+  [1m[36m (13.9ms)[0m  [1m    CREATE TABLE `Users-Decks` (
+    	`deck_id` INT NOT NULL,
+    	`user_id` INT NOT NULL,
+    	PRIMARY KEY (`deck_id`)
+    );
+[0m
+  [1m[35m (13.5ms)[0m      CREATE TABLE `Decks-Cards` (
+    	`user_id` INT NOT NULL,
+    	`card_id` VARCHAR(255) NOT NULL
+    );
+    
+    CREATE TABLE `Combos-Cards` (
+    	`combo_id` INT NOT NULL AUTO_INCREMENT,
+    	`card_id` INT NOT NULL,
+    	PRIMARY KEY (`combo_id`)
+    );
+    
+    CREATE TABLE `Decks-Combos` (
+    	`deck_id` INT NOT NULL,
+    	`combo_id` INT NOT NULL
+    );
+    
+    ALTER TABLE `Users-Decks` ADD CONSTRAINT `Users-Decks_fk0` FOREIGN KEY (`user_id`) REFERENCES `Users`(`user_id`);
+    
+    ALTER TABLE `Decks-Cards` ADD CONSTRAINT `Decks-Cards_fk0` FOREIGN KEY (`user_id`) REFERENCES `Users-Decks`(`user_id`);
+    
+    ALTER TABLE `Decks-Cards` ADD CONSTRAINT `Decks-Cards_fk1` FOREIGN KEY (`card_id`) REFERENCES `Cards`(`card_id`);
+    
+    ALTER TABLE `Combos-Cards` ADD CONSTRAINT `Combos-Cards_fk0` FOREIGN KEY (`card_id`) REFERENCES `Cards`(`card_id`);
+    
+    ALTER TABLE `Decks-Combos` ADD CONSTRAINT `Decks-Combos_fk0` FOREIGN KEY (`deck_id`) REFERENCES `Users-Decks`(`deck_id`);
+    
+    ALTER TABLE `Decks-Combos` ADD CONSTRAINT `Decks-Combos_fk1` FOREIGN KEY (`combo_id`) REFERENCES `Combos-Cards`(`combo_id`);
+
+
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20170305202431)
+  [1m[35m (0.4ms)[0m      CREATE TABLE `Cards` (
+    	`card_id` VARCHAR(255) NOT NULL,
+    	`key` VARCHAR(255) NOT NULL UNIQUE DEFAULT '-',
+    	`attack` INT NOT NULL DEFAULT '-',
+    	`defense` INT NOT NULL DEFAULT '-',
+    	`level` INT NOT NULL DEFAULT '-',
+    	`type` VARCHAR(255) NOT NULL,
+    	`attribute` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`monster_type` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`card_effect_type` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`property` VARCHAR(255) NOT NULL DEFAULT '-',
+    	PRIMARY KEY (`card_id`)
+    );
+
+  [1m[36m (0.3ms)[0m  [1m    CREATE TABLE `Cards` (
+    	`card_id` VARCHAR(255) NOT NULL,
+    	`key` VARCHAR(255) NOT NULL UNIQUE DEFAULT '-',
+    	`attack` INT NOT NULL DEFAULT '-',
+    	`defense` INT NOT NULL DEFAULT '-',
+    	`level` INT NOT NULL DEFAULT '-',
+    	`type` VARCHAR(255) NOT NULL,
+    	`attribute` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`monster_type` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`card_effect_type` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`property` VARCHAR(255) NOT NULL DEFAULT '-',
+    	PRIMARY KEY (`card_id`)
+    );
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20170305202431)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (12.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (10.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (12.9ms)[0m  [1m    CREATE TABLE `Cards` (
+    	`card_id` VARCHAR(255) NOT NULL,
+    	`key` VARCHAR(255) NOT NULL UNIQUE DEFAULT '-',
+    	`attack` INT NOT NULL DEFAULT '-',
+    	`defense` INT NOT NULL DEFAULT '-',
+    	`level` INT NOT NULL DEFAULT '-',
+    	`type` VARCHAR(255) NOT NULL,
+    	`attribute` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`monster_type` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`card_effect_type` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`property` VARCHAR(255) NOT NULL DEFAULT '-',
+    	PRIMARY KEY (`card_id`)
+    );
+[0m
+  [1m[35m (14.8ms)[0m      CREATE TABLE `Users` (
+    	`user_id` INT NOT NULL,
+    	PRIMARY KEY (`user_id`)
+    );
+
+  [1m[36m (8.7ms)[0m  [1m    CREATE TABLE `Users-Decks` (
+    	`deck_id` INT NOT NULL,
+    	`user_id` INT NOT NULL,
+    	PRIMARY KEY (`deck_id`)
+    );
+[0m
+  [1m[35m (19.1ms)[0m      CREATE TABLE `Decks-Cards` (
+    	`user_id` INT NOT NULL,
+    	`card_id` VARCHAR(255) NOT NULL
+    );
+
+  [1m[36m (0.5ms)[0m  [1m    CREATE TABLE `Combos-Cards` (
+    	`combo_id` INT NOT NULL AUTO_INCREMENT,
+    	`card_id` INT NOT NULL,
+    	PRIMARY KEY (`combo_id`)
+    );
+[0m
+  [1m[35m (0.3ms)[0m      CREATE TABLE `Cards` (
+    	`card_id` VARCHAR(255) NOT NULL,
+    	`key` VARCHAR(255) NOT NULL UNIQUE DEFAULT '-',
+    	`attack` INT NOT NULL DEFAULT '-',
+    	`defense` INT NOT NULL DEFAULT '-',
+    	`level` INT NOT NULL DEFAULT '-',
+    	`type` VARCHAR(255) NOT NULL,
+    	`attribute` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`monster_type` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`card_effect_type` VARCHAR(255) NOT NULL DEFAULT '-',
+    	`property` VARCHAR(255) NOT NULL DEFAULT '-',
+    	PRIMARY KEY (`card_id`)
+    );
+
+  [1m[36m (11.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (10.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170305202431"]]
+  [1m[35m (10.4ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 21:30:00 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 388ms (Views: 375.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 21:30:02 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 21:30:02 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2/callback?state=89523cc5ba6f26c7e46ea0f85d98527e7daab657a522bafd&code=4/44iEQMhJAmdP9RW4S4A5UMJpTQ57XTpROoFeWhalVDU" for 146.115.166.90 at 2017-03-05 21:30:04 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"89523cc5ba6f26c7e46ea0f85d98527e7daab657a522bafd", "code"=>"4/44iEQMhJAmdP9RW4S4A5UMJpTQ57XTpROoFeWhalVDU", "provider"=>"google_oauth2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."provider" = ? AND "users"."uid" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["provider", "google_oauth2"], ["uid", "103119254185515660677"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("provider", "uid", "name", "oauth_token", "oauth_expires_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["provider", "google_oauth2"], ["uid", "103119254185515660677"], ["name", "Ted McNulty"], ["oauth_token", "ya29.GlsFBF06yORiuzTMZ_qnWyJGRidTXPN0YSq_-r0AZSg53IP3qAvTC853cYMnj-ZQA6bABtiiXxLOpIbfCFUfHWFOajR6L4Tj5YcVle11jaRIcTKfAaIc0kLDoCKm"], ["oauth_expires_at", "2017-03-05 22:30:04.000000"], ["created_at", "2017-03-05 21:30:04.568180"], ["updated_at", "2017-03-05 21:30:04.568180"]]
+  [1m[36m (11.7ms)[0m  [1mcommit transaction[0m
+Redirected to https://duel-links-tedmcn.c9users.io/
+Completed 302 Found in 85ms (ActiveRecord: 13.2ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 21:30:04 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.3ms)
+  [1m[36m (11.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (11.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170305202431"]]
+  [1m[35m (16.4ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (11.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (9.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1m      CREATE TABLE `Cards` (
+      	`card_id` VARCHAR(255) NOT NULL,
+      	`key` VARCHAR(255) NOT NULL UNIQUE DEFAULT '-',
+      	`attack` INT NOT NULL DEFAULT '-',
+      	`defense` INT NOT NULL DEFAULT '-',
+      	`level` INT NOT NULL DEFAULT '-',
+      	`type` VARCHAR(255) NOT NULL,
+      	`attribute` VARCHAR(255) NOT NULL DEFAULT '-',
+      	`monster_type` VARCHAR(255) NOT NULL DEFAULT '-',
+      	`card_effect_type` VARCHAR(255) NOT NULL DEFAULT '-',
+      	`property` VARCHAR(255) NOT NULL DEFAULT '-',
+      	PRIMARY KEY (`card_id`)
+      );
+[0m
+  [1m[35m (0.5ms)[0m        CREATE TABLE `Users` (
+      	`user_id` INT NOT NULL,
+      	PRIMARY KEY (`user_id`)
+      );
+
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[36m (10.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (10.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "user_id" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1m      CREATE TABLE `Cards` (
+      	`card_id` VARCHAR(255) NOT NULL,
+      	`key` VARCHAR(255) NOT NULL UNIQUE DEFAULT '-',
+      	`attack` INT NOT NULL DEFAULT '-',
+      	`defense` INT NOT NULL DEFAULT '-',
+      	`level` INT NOT NULL DEFAULT '-',
+      	`type` VARCHAR(255) NOT NULL,
+      	`attribute` VARCHAR(255) NOT NULL DEFAULT '-',
+      	`monster_type` VARCHAR(255) NOT NULL DEFAULT '-',
+      	`card_effect_type` VARCHAR(255) NOT NULL DEFAULT '-',
+      	`property` VARCHAR(255) NOT NULL DEFAULT '-',
+      	PRIMARY KEY (`card_id`)
+      );
+[0m
+  [1m[35m (0.6ms)[0m        CREATE TABLE `Users-Decks` (
+      	`deck_id` INT NOT NULL,
+      	`user_id` VARCHAR(255) NOT NULL,
+      	PRIMARY KEY (`deck_id`)
+      );
+
+  [1m[36m (0.3ms)[0m  [1m      CREATE TABLE `Decks-Cards` (
+      	`user_id` VARCHAR(255) NOT NULL,
+      	`card_id` VARCHAR(255) NOT NULL
+      );
+[0m
+  [1m[35m (1.1ms)[0m        CREATE TABLE `Combos-Cards` (
+      	`combo_id` INT NOT NULL AUTO_INCREMENT,
+      	`card_id` INT NOT NULL,
+      	PRIMARY KEY (`combo_id`)
+      );
+
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[36m (25.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (11.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170305202431"]]
+  [1m[35m (13.3ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (13.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (10.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170305202431"]]
+  [1m[35m (17.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 22:36:40 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (2.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 380ms (ActiveRecord: 0.9ms)
+
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=1):
+  app/controllers/application_controller.rb:6:in `current_user'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__4481702753779306076_19426900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (41.8ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 22:37:10 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=1):
+  app/controllers/application_controller.rb:6:in `current_user'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__4481702753779306076_19426900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.2ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 22:37:22 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 154ms (Views: 153.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 146.115.166.90 at 2017-03-05 22:37:22 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 146.115.166.90 at 2017-03-05 22:37:22 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 146.115.166.90 at 2017-03-05 22:37:22 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 146.115.166.90 at 2017-03-05 22:37:22 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 146.115.166.90 at 2017-03-05 22:37:22 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 146.115.166.90 at 2017-03-05 22:37:22 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 146.115.166.90 at 2017-03-05 22:37:22 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 146.115.166.90 at 2017-03-05 22:37:22 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 146.115.166.90 at 2017-03-05 22:37:23 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 22:37:29 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 22:37:29 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 22:37:32 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 22:37:32 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2/callback?state=1df11e9fd5e03225961866a642ede648e67fec2b1ecaef2d&code=4/djdw6GybrylpPRVelFZqOfSozR2-_2MqBQCWAZELebE" for 146.115.166.90 at 2017-03-05 22:37:40 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"1df11e9fd5e03225961866a642ede648e67fec2b1ecaef2d", "code"=>"4/djdw6GybrylpPRVelFZqOfSozR2-_2MqBQCWAZELebE", "provider"=>"google_oauth2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."provider" = ? AND "users"."uid" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["provider", "google_oauth2"], ["uid", "103119254185515660677"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "users" ("provider", "uid", "name", "oauth_token", "oauth_expires_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["provider", "google_oauth2"], ["uid", "103119254185515660677"], ["name", "Ted McNulty"], ["oauth_token", "ya29.GlsFBOoOnaJQHRJAmLAIvH_uljRCR9isZv29_GgjLPw5JwmUU1oKKrnlAd2R-neSSCEpQVaGtoMmw6uAv237UDW8CWYAU_E3C6Ot_NSdmz5q_HmT4AZrqh8pTDW4"], ["oauth_expires_at", "2017-03-05 23:37:39.000000"], ["created_at", "2017-03-05 22:37:40.666945"], ["updated_at", "2017-03-05 22:37:40.666945"]]
+  [1m[36m (15.0ms)[0m  [1mcommit transaction[0m
+Redirected to https://duel-links-tedmcn.c9users.io/
+Completed 302 Found in 37ms (ActiveRecord: 17.3ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 22:37:40 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 22:37:43 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.2ms)
+  [1m[36m (14.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (10.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "key" varchar, "attack" integer, "defense" integer, "level" integer, "type" varchar, "attribute" varchar, "monster_type" varchar, "card_effect_type" varchar, "property" varchar) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170305202431"]]
+  [1m[36m (13.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/signout" for 146.115.166.90 at 2017-03-05 22:42:29 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#destroy as HTML
+Redirected to https://duel-links-tedmcn.c9users.io/
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 22:42:29 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 343ms (Views: 341.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 22:42:31 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 22:42:33 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2" for 146.115.166.90 at 2017-03-05 22:42:34 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Request phase initiated.
+
+
+Started GET "/auth/google_oauth2/callback?state=569524bebcb0d6f7f799cfddd74dc2e220f891f2e3e6cdb9&code=4/5rEeYGbRIbynfbCm_yimUpadN0KMOHuy65aRYNrLplY" for 146.115.166.90 at 2017-03-05 22:42:34 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(google_oauth2) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"569524bebcb0d6f7f799cfddd74dc2e220f891f2e3e6cdb9", "code"=>"4/5rEeYGbRIbynfbCm_yimUpadN0KMOHuy65aRYNrLplY", "provider"=>"google_oauth2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."provider" = ? AND "users"."uid" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["provider", "google_oauth2"], ["uid", "103119254185515660677"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("provider", "uid", "name", "oauth_token", "oauth_expires_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["provider", "google_oauth2"], ["uid", "103119254185515660677"], ["name", "Ted McNulty"], ["oauth_token", "ya29.GlsFBNlH6jivgjoKryp4NsZWUDTzt78HL8rQk_F3MND4dtYYV4wdBpPdFjbHCPK8MLwDe2pNgHQE5OWh8uCaSl-WIqBjoyW0Wb2oVaBN6UkmN_tk-4hVP9835FnS"], ["oauth_expires_at", "2017-03-05 23:42:34.000000"], ["created_at", "2017-03-05 22:42:34.788447"], ["updated_at", "2017-03-05 22:42:34.788447"]]
+  [1m[36m (15.8ms)[0m  [1mcommit transaction[0m
+Redirected to https://duel-links-tedmcn.c9users.io/
+Completed 302 Found in 64ms (ActiveRecord: 17.4ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 22:42:34 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 146.115.166.90 at 2017-03-05 22:42:35 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 146.115.166.90 at 2017-03-05 22:42:35 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 146.115.166.90 at 2017-03-05 22:42:35 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 146.115.166.90 at 2017-03-05 22:42:35 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 146.115.166.90 at 2017-03-05 22:42:35 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 146.115.166.90 at 2017-03-05 22:42:35 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 146.115.166.90 at 2017-03-05 22:42:35 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 146.115.166.90 at 2017-03-05 22:42:35 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 146.115.166.90 at 2017-03-05 22:42:35 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/signout" for 146.115.166.90 at 2017-03-05 22:42:37 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+Redirected to https://duel-links-tedmcn.c9users.io/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-05 22:42:37 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (10.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (9.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "key" varchar, "attack" integer, "defense" integer, "level" integer, "type" varchar, "attribute" varchar, "monster_type" varchar, "card_effect_type" varchar, "property" varchar) [0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "users_decks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "deck_id" integer, "uid" varchar) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170305202431"]]
+  [1m[35m (11.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (13.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (9.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "key" varchar, "attack" integer, "defense" integer, "level" integer, "type" varchar, "attribute" varchar, "monster_type" varchar, "card_effect_type" varchar, "property" varchar) [0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "users_decks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "deck_id" integer, "uid" varchar) 
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "decks_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "uid" varchar, "card_id" varchar) [0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "decks_combos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "deck_id" integer, "combo_id" integer) 
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "combos_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combo_id" integer, "card_id" varchar) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170305202431"]]
+  [1m[36m (10.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (15.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (21.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "key" varchar, "attack" integer, "defense" integer, "level" integer, "type" varchar, "attribute" varchar, "monster_type" varchar, "card_effect_type" varchar, "property" varchar) [0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "users_decks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "deck_id" integer, "uid" varchar) 
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "decks_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "uid" varchar, "card_id" varchar) [0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "decks_combos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combos_cards_id" integer, "users_decks_id" integer) 
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_decks_combos_on_combos_cards_id" ON "decks_combos" ("combos_cards_id")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_decks_combos_on_users_decks_id" ON "decks_combos" ("users_decks_id")[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "combos_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combo_id" integer, "card_id" varchar) 
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170305202431"]]
+  [1m[35m (14.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_users_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_users_decks_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+[0m
+  [1m[36m (11.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (11.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "key" varchar, "attack" integer, "defense" integer, "level" integer, "type" varchar, "attribute" varchar, "monster_type" varchar, "card_effect_type" varchar, "property" varchar) [0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "users_decks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "deck_id" integer, "uid" varchar) 
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "decks_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "users_decks_id" integer, "cards_id" integer) [0m
+  [1m[35m (0.2ms)[0m  CREATE  INDEX "index_decks_cards_on_users_decks_id" ON "decks_cards" ("users_decks_id")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_users_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_users_decks_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE  INDEX "index_decks_cards_on_cards_id" ON "decks_cards" ("cards_id")
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "decks_combos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combos_cards_id" integer, "users_decks_id" integer) [0m
+  [1m[35m (0.2ms)[0m  CREATE  INDEX "index_decks_combos_on_combos_cards_id" ON "decks_combos" ("combos_cards_id")
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE  INDEX "index_decks_combos_on_users_decks_id" ON "decks_combos" ("users_decks_id")
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "combos_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combo_id" integer, "card_id" varchar) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170305202431"]]
+  [1m[36m (22.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_cards_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_users_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_users_decks_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_users_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_users_decks_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+
+
+
+Started GET "/" for 129.64.143.246 at 2017-03-06 00:53:51 +0000
+Cannot render console from 129.64.143.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 370ms (Views: 358.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 129.64.143.246 at 2017-03-06 00:53:51 +0000
+Cannot render console from 129.64.143.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.64.143.246 at 2017-03-06 00:53:51 +0000
+Cannot render console from 129.64.143.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 129.64.143.246 at 2017-03-06 00:53:51 +0000
+Cannot render console from 129.64.143.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 129.64.143.246 at 2017-03-06 00:53:51 +0000
+Cannot render console from 129.64.143.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 129.64.143.246 at 2017-03-06 00:53:51 +0000
+Cannot render console from 129.64.143.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 129.64.143.246 at 2017-03-06 00:53:51 +0000
+Cannot render console from 129.64.143.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.64.143.246 at 2017-03-06 00:53:52 +0000
+Cannot render console from 129.64.143.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.64.143.246 at 2017-03-06 00:53:52 +0000
+Cannot render console from 129.64.143.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 129.64.143.246 at 2017-03-06 00:53:52 +0000
+Cannot render console from 129.64.143.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36m (14.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (11.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "key" varchar, "attack" integer, "defense" integer, "level" integer, "type" varchar, "attribute" varchar, "monster_type" varchar, "card_effect_type" varchar, "property" varchar) [0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "users_decks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "deck_id" integer, "user_id" integer) 
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_users_decks_on_user_id" ON "users_decks" ("user_id")[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "decks_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "users_decks_id" integer, "cards_id" integer) 
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_decks_cards_on_users_decks_id" ON "decks_cards" ("users_decks_id")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_users_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_users_decks_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_decks_cards_on_cards_id" ON "decks_cards" ("cards_id")[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "decks_combos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combos_cards_id" integer, "users_decks_id" integer) 
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_decks_combos_on_combos_cards_id" ON "decks_combos" ("combos_cards_id")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_decks_combos_on_users_decks_id" ON "decks_combos" ("users_decks_id")[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "combos_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combo_id" integer, "card_id" varchar) 
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170305202431"]]
+  [1m[35m (14.7ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_cards_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_users_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_users_decks_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_users_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_users_decks_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_decks_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_decks_on_user_id' AND type='index'
+
+  [1m[36m (15.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (12.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "key" varchar, "attack" integer, "defense" integer, "level" integer, "type" varchar, "attribute" varchar, "monster_type" varchar, "card_effect_type" varchar, "property" varchar) [0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "decks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "deck_id" integer, "user_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_decks_on_user_id" ON "decks" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "decks_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "decks_id" integer, "cards_id" integer) 
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_decks_cards_on_decks_id" ON "decks_cards" ("decks_id")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_decks_cards_on_cards_id" ON "decks_cards" ("cards_id")[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "decks_combos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combos_cards_id" integer, "decks_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_decks_combos_on_combos_cards_id" ON "decks_combos" ("combos_cards_id")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_decks_combos_on_decks_id" ON "decks_combos" ("decks_id")[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "combos_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combo_id" integer, "card_id" varchar) 
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170305202431"]]
+  [1m[35m (12.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_on_user_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_cards_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_decks_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_combos_cards_id' AND type='index'
+
+  [1m[36m (13.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (10.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "key" varchar, "attack" integer, "defense" integer, "level" integer, "type" varchar, "attribute" varchar, "monster_type" varchar, "card_effect_type" varchar, "property" varchar) [0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "decks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "deck_id" integer, "user_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_decks_on_user_id" ON "decks" ("user_id")[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "decks_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "decks_id" integer, "cards_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_decks_cards_on_decks_id" ON "decks_cards" ("decks_id")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_decks_cards_on_cards_id" ON "decks_cards" ("cards_id")[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "decks_combos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combos_id" integer, "decks_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_decks_combos_on_combos_id" ON "decks_combos" ("combos_id")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_combos_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_combos_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_decks_combos_on_decks_id" ON "decks_combos" ("decks_id")[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "combos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combo_id" integer, "card_id" varchar) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170305202431"]]
+  [1m[35m (13.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_on_user_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_cards_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_decks_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_combos_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_combos_id' AND type='index'
+
+  [1m[36m (14.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (10.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "key" varchar, "attack" integer, "defense" integer, "level" integer, "type" varchar, "attribute" varchar, "monster_type" varchar, "card_effect_type" varchar, "property" varchar) [0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "decks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "deck_id" integer, "user_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_decks_on_user_id" ON "decks" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "decks_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "decks_id" integer, "cards_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_decks_cards_on_decks_id" ON "decks_cards" ("decks_id")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_decks_cards_on_cards_id" ON "decks_cards" ("cards_id")[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "decks_combos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combos_id" integer, "decks_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_decks_combos_on_combos_id" ON "decks_combos" ("combos_id")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_combos_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_combos_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_decks_combos_on_decks_id" ON "decks_combos" ("decks_id")[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "combos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combo_id" integer, "cards_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_combos_on_cards_id" ON "combos" ("cards_id")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170305202431"]]
+  [1m[36m (14.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_combos_on_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_combos_on_cards_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_on_user_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_cards_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_decks_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_combos_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_combos_id' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (16.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (10.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170305202431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "key" varchar, "attack" integer, "defense" integer, "level" integer, "type" varchar, "attribute" varchar, "monster_type" varchar, "card_effect_type" varchar, "property" varchar) [0m
+  [1m[35m (8.5ms)[0m  CREATE TABLE "decks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "deck_id" integer, "user_id" integer) 
+  [1m[36m (0.3ms)[0m  [1mCREATE  INDEX "index_decks_on_user_id" ON "decks" ("user_id")[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "decks_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "decks_id" integer, "cards_id" integer) 
+  [1m[36m (0.3ms)[0m  [1mCREATE  INDEX "index_decks_cards_on_decks_id" ON "decks_cards" ("decks_id")[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_decks_cards_on_cards_id" ON "decks_cards" ("cards_id")[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "decks_combos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combos_id" integer, "decks_id" integer) 
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_decks_combos_on_combos_id" ON "decks_combos" ("combos_id")[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_combos_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_combos_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_decks_combos_on_decks_id" ON "decks_combos" ("decks_id")[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "combos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "combo_id" integer, "cards_id" integer) 
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_combos_on_cards_id" ON "combos" ("cards_id")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170305202431"]]
+  [1m[36m (10.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_combos_on_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_combos_on_cards_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_on_user_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_cards_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_cards_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_cards_on_decks_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_decks_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_decks_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_decks_combos_on_combos_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_decks_combos_on_combos_id' AND type='index'
+
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-06 02:49:11 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (2.8ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 518ms (ActiveRecord: 0.9ms)
+
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=1):
+  app/controllers/application_controller.rb:6:in `current_user'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__4215276331622367175_25208440'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.6ms)
+
+
+Started GET "/" for 146.115.166.90 at 2017-03-06 02:49:18 +0000
+Cannot render console from 146.115.166.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
