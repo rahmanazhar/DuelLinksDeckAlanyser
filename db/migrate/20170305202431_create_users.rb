@@ -17,7 +17,7 @@ class CreateUsers < ActiveRecord::Migration
       c.integer :defense
       c.integer :level
       c.string :type
-      c.string :attribute
+      c.string :attribute_value
       c.string :monster_type
       c.string :card_effect_type
       c.string :property
