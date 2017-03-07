@@ -1,10 +1,5 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+# Loads all the data the DB needs for users to get up and running
+# As of now all it needs it card data
 
 require 'rubygems'
 require 'nokogiri'   
@@ -36,6 +31,8 @@ pages.each{ |link|
     #Grab the div that holds the image
     image = card_page.css("div.article-part")[1].css("div div img")[0]['src']
     download = open("http://duellinks.gamea.co#{image}")
+    
+    #Save the image in the assets/image folder
     IO.copy_stream(download, "./app/assets/images/card_#{c.id}.jpg")
     puts image
     
@@ -109,8 +106,3 @@ pages.each{ |link|
     counter+=1;
     
 }
-
-# testing
-# puts cards_page.css("div.article-part tr").length
-# puts cards_page.css("div.article-part tr[class='bgcolor-grey-thin']").length
-# puts cards_page.css("div.article-part").length
