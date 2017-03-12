@@ -22,10 +22,12 @@ Rails.application.routes.draw do
   
     root to: "home#show"
   
-    resource :cards do
-      get '/' => "cards#index"
-      get ':id' => "cards#show", as: "card" 
-    end
+    resources :cards
+    
+    resources :decks
+    post '/newdeck', to: :create, controller: "decks"
+    post '/add_card', to: :add, controller: "decks"
+    
   
 #   get 'sessions/create'
 

@@ -1,9 +1,9 @@
 class CardsController < ApplicationController
   def index
-    @cards = Cards.first(50)
-    @from_index_controller=true
+    @cards_all = Card.first(50)
+    @from_cards_index=true
   end
   def show
-    @card = Cards.find(params[:id])
+    @card = Card.find(params[:id])
   end
 end

@@ -1,9 +1,1 @@
-<% if @cards.blank? %>
-    <h4>No Cards in the database</h4>
-<% else %>
-    <div class="containing_cards_all">
-        <% @cards.each do |card|%>
-        <%= render "show", :params => {:id => card.id}%>
-        <% end %>
-    </div>
-<% end %>
+<%= render "/cards/index" %>

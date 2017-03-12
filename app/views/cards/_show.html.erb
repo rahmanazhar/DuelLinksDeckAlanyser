@@ -1,19 +1,41 @@
-<% @card = Cards.find(params[:id]) %>
+<!----------------------------------------------------------------------------->
+<!---------------------------------LINKS--------------------------------------->
+<!----------------------------------------------------------------------------->
+<% if !@from_decks_show && !@from_cards_index%>
+    <%= link_to "All Cards", cards_path %>
+<% end %>
+<br>
+
+<!----------------------------------------------------------------------------->
+<!-----------------------------CARD MODAL-------------------------------------->
+<!----------------------------------------------------------------------------->
+<% @card = Card.find(params[:id]) %>
 <div class="demo-card-square mdl-card mdl-shadow--2dp containing_card">
+      <!------------------------------------------------------------>
+      <!--------------------------IMAGE----------------------------->
+      <!------------------------------------------------------------>
   <div class="mdl-card__title mdl-card--expand containing_image">
     <%= image_tag("card_#{@card.id}.jpg") %>
   </div>
+      <!------------------------------------------------------------>
+      <!--------------------------TITLE----------------------------->
+      <!------------------------------------------------------------>
   <div class= "mdl-card__title mdl-card--border containing_title">
-      <h2 class="mdl-card__supporting-text"><%=@card.name.to_s.strip%></h2>
-      <div class= "card_actions">
-        <% if @from_index_controller %>
-            <%=link_to card_cards_path(@card.id) do %>  
-                <button type="button" class="material-icons">arrow_forward</button>
-            <% end %>
+    <h2 class="mdl-card__supporting-text"><%=@card.name.to_s.strip%></h2>
+      <!------------------------------------------------------------>
+      <!-------------------------ACTIONS---------------------------->
+      <!------------------------------------------------------------>
+    <div class= "card_actions">
+        <% if @from_cards_index || @from_decks_show %>
+            <%= button_to 'arrow_forward', @card, :method => :get, class: "material-icons"%>    
         <% end %>
-        <button class="material-icons">add_to_photos</button>
+            <!--<button id="show-dialog" type="button" class="material-icons">add_to_photos</button>-->
+            <%= button_to 'add_to_photos',{:controller => "decks", :action => "add", :card_id => @card.id}, :method=>:post, class: "material-icons"%>
       </div>
   </div>
+      <!------------------------------------------------------------>
+      <!--------------------------TABLE----------------------------->
+      <!------------------------------------------------------------>
   <div class="mdl-card--border containing_table">
     <table class="mdl-data-table mdl-js-data-table">
         <tbody>
@@ -65,20 +87,22 @@
                     <% card_effect_type = @card.card_effect_type.strip.split('/')%>
                     <th class="row_data">
                         <p class="row_data">
-                            <% card_effect_type.each do |cet|%>
-                                <%=cet%><br>
-                            <% end %>
+                            <%=card_effect_type[0]%>
                         </p>
                     </th>
                 </tr>
+                <% card_effect_type[1..card_effect_type.length].each do |cet|%>
+                    <tr>
+                        <th class="row_data"><p class="row_data"></p></th>
+                        <th class="row_data"><p class="row_data"><%=cet%></p></th>
+                    </tr>
+                <% end %>
             <% end %>
-            
         </tbody>
     </table>
   </div>
-  <!--<div class="mdl-card__actions mdl-card--border">-->
-  <!--  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">-->
-  <!--    View Updates-->
-  <!--  </a>-->
-  <!--</div>-->
 </div>
+<!----------------------------------------------------------------------------->
+<!---------------------------INVISIBLE STUFF----------------------------------->
+<!----------------------------------------------------------------------------->
+<%= render "/decks/add", locals: {card_id: @card.id} %>

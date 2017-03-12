@@ -25,12 +25,13 @@ class CreateUsers < ActiveRecord::Migration
     
     create_table :decks do |d|
       d.integer :deck_id
+      d.string :name
       d.belongs_to :user, index: true
     end
 
-    create_table :decks_cards do |d|
-      d.belongs_to :decks, index:true
-      d.belongs_to :cards, index: true
+    create_table :cards_decks do |d|
+      d.belongs_to :deck, index:true
+      d.belongs_to :card, index: true
     end
     
     create_table :decks_combos do |d|

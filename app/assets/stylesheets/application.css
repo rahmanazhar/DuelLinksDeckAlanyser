@@ -20,6 +20,10 @@
 table{
     padding:0px;
 }
+dialog{
+    border:none;
+    padding:0em;
+}
 
 /******************************************************************************
                                     CARD#SHOW
@@ -70,6 +74,7 @@ table{
 .card_actions button{
     float: right;
     margin-right: .25em !important;
+    margin-bottom: .25em !important;
     
     border-top-left-radius: 25%;
     border-bottom-right-radius: 25%;
@@ -82,7 +87,24 @@ table{
     background:#666666;
     border: 2px solid #666666;
 }                    
-                    
+
+.card_actions form input{
+    float: right;
+    margin-right: .25em !important;
+    margin-bottom: .25em !important;
+    
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    
+    font-size: 1.5em;
+    padding: 0px 0px;
+    color: #ffffff;
+    background:#666666;
+    border: 2px solid #666666;
+} 
+                
                     /**************************************/
 .containing_table{
     height:10.1em;

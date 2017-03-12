@@ -1,0 +1,11 @@
+<%= link_to "Deck Index", decks_path%>
+<div class="containing_cards_all">
+    <%if @cards.length>0 %>
+        <% @cards.each do |card|%>
+            <%= render "/cards/show", :params => {:id => card.id, :deck_id=> @deck.id}%>
+        <% end %>
+    <% end %>
+</div>
+<br>
+<br>
+<%= render :partial =>"/cards/index" %>

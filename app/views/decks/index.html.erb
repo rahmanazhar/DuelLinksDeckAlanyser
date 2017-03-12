@@ -1,0 +1,4 @@
+<%@decks.each do |deck|%>
+    <%= link_to deck.id, deck_path(deck) %>
+<%end%>
+<%= button_to "Create New Deck", newdeck_path, class:""%>

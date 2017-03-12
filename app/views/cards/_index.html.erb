@@ -1,0 +1,9 @@
+<% if @cards_all.blank? %>
+    <h4>No Cards in the database</h4>
+<% else %>
+    <div class="containing_cards_all">
+        <% @cards_all.each do |card|%>
+            <%= render "cards/show", :params => {:id => card.id}%>
+        <% end %>
+    </div>
+<% end %>

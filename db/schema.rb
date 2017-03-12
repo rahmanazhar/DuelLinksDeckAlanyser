@@ -26,6 +26,14 @@ ActiveRecord::Schema.define(version: 20170305202431) do
     t.string  "property"
   end
 
+  create_table "cards_decks", force: :cascade do |t|
+    t.integer "deck_id"
+    t.integer "card_id"
+  end
+
+  add_index "cards_decks", ["card_id"], name: "index_cards_decks_on_card_id"
+  add_index "cards_decks", ["deck_id"], name: "index_cards_decks_on_deck_id"
+
   create_table "combos", force: :cascade do |t|
     t.integer "combo_id"
     t.integer "cards_id"
@@ -35,18 +43,11 @@ ActiveRecord::Schema.define(version: 20170305202431) do
 
   create_table "decks", force: :cascade do |t|
     t.integer "deck_id"
+    t.string  "name"
     t.integer "user_id"
   end
 
   add_index "decks", ["user_id"], name: "index_decks_on_user_id"
-
-  create_table "decks_cards", force: :cascade do |t|
-    t.integer "decks_id"
-    t.integer "cards_id"
-  end
-
-  add_index "decks_cards", ["cards_id"], name: "index_decks_cards_on_cards_id"
-  add_index "decks_cards", ["decks_id"], name: "index_decks_cards_on_decks_id"
 
   create_table "decks_combos", force: :cascade do |t|
     t.integer "combos_id"
