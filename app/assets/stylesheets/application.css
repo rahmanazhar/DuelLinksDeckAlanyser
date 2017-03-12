@@ -13,3 +13,117 @@
  *= require_tree .
  *= require_self
  */
+/******************************************************************************
+                                  HTML ELEMENTS
+******************************************************************************/
+
+table{
+    padding:0px;
+}
+
+/******************************************************************************
+                                    CARD#SHOW
+******************************************************************************/
+
+.containing_card{
+    display: inline-table;
+    width: 30em;
+    height: 15em;
+}
+
+                    /**************************************/
+
+.containing_image{
+    float: left;
+    border-bottom:none;
+    padding:0em;
+    margin:1em;
+}
+
+.containing_image img{
+    height:13em;
+}
+
+                    /**************************************/
+
+.containing_title{
+    height: 2em !important;
+    width:18em;
+    padding:0em;
+    margin-top:1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.containing_title h2{
+    width: 28em;
+    margin:0;
+    padding:0;
+}
+
+                    /**************************************/
+.card_actions{
+    width:100%;
+    float: right;
+}                    
+                    
+.card_actions button{
+    float: right;
+    margin-right: .25em !important;
+    
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    
+    font-size: 1.5em;
+    padding: 0px 0px;
+    color: #ffffff;
+    background:#666666;
+    border: 2px solid #666666;
+}                    
+                    
+                    /**************************************/
+.containing_table{
+    height:10.1em;
+    overflow-y: auto;
+    margin-bottom: 1em;
+}
+
+.containing_table  table{
+    table-layout: fixed;
+    width: 100%;
+    border:none;
+}
+
+.containing_table  table  tbody{
+    width: 100%;
+}
+
+.containing_table  table  tbody tr{
+    width: 100%;
+    height:0.75em !important;
+    overflow-y: visible;
+}
+
+.row_data{
+    text-align: left !important;
+    height:0.75em !important;
+    width:50% !important;
+    padding: 0em !important;
+    
+    
+}
+
+
+
+/******************************************************************************
+                                    CARD#INDEX
+******************************************************************************/
+
+.containing_cards_all{
+}
+
+.containing_cards_all .containing_card{
+    display: inline-block;
+}

@@ -58,11 +58,11 @@ pages.each{ |link|
             ##Determines if its a magic card, trap, effect monster, ritual, norm, etc.
             # Card type and type are the same thing
             when "Card type"
-                c.update_attribute(:type , s.css("td")[1].text.to_s)
+                c.update_attribute(:card_type , s.css("td")[1].text.to_s)
                 puts s.css("td")[1].text.to_s
                 puts "Card type updated"
             when "Type"
-                c.update_attribute(:type , s.css("td")[1].text.to_s)
+                c.update_attribute(:card_type , s.css("td")[1].text.to_s)
                 puts s.css("td")[1].text.to_s
                 puts "Type updated"
             

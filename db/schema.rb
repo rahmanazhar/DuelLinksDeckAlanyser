@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20170305202431) do
     t.integer "attack"
     t.integer "defense"
     t.integer "level"
-    t.string  "type"
+    t.string  "card_type"
     t.string  "attribute_value"
     t.string  "monster_type"
     t.string  "card_effect_type"

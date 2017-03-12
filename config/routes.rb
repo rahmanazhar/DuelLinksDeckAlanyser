@@ -22,7 +22,10 @@ Rails.application.routes.draw do
   
     root to: "home#show"
   
-  
+    resource :cards do
+      get '/' => "cards#index"
+      get ':id' => "cards#show", as: "card" 
+    end
   
 #   get 'sessions/create'
 
