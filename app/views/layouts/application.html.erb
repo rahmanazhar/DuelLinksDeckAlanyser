@@ -24,5 +24,10 @@
       <% end %>
     </div>
     <%= yield %>
+    
+    <% if defined? @card !="nil" %>
+      <%= render "/decks/add", locals: {card_id: @card.id} %>
+    <% end %>
+
   </body>
 </html>

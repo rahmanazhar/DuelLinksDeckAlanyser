@@ -29,8 +29,7 @@
         <% if @from_cards_index || @from_decks_show %>
             <%= button_to 'arrow_forward', @card, :method => :get, class: "material-icons"%>    
         <% end %>
-            <!--<button id="show-dialog" type="button" class="material-icons">add_to_photos</button>-->
-            <%= button_to 'add_to_photos',{:controller => "decks", :action => "add", :card_id => @card.id}, :method=>:post, class: "material-icons"%>
+            <button onclick="show_card_deck_modal(<%=@card.id%>)" type="button" class="material-icons show-dialog">add_to_photos</button>
       </div>
   </div>
       <!------------------------------------------------------------>
@@ -105,4 +104,7 @@
 <!----------------------------------------------------------------------------->
 <!---------------------------INVISIBLE STUFF----------------------------------->
 <!----------------------------------------------------------------------------->
-<%= render "/decks/add", locals: {card_id: @card.id} %>
+<%@modal_loaded =true %>
+<% if defined? @modal_loaded ="nil" %>
+    <%@modal_loaded=true %>
+<% end %>

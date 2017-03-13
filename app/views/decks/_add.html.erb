@@ -1,34 +1,37 @@
-<dialog>
-    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-      <div class="mdl-card__title">
-        <h2 class="mdl-card__title-text">Welcome</h2>
-      </div>
-      <div class="mdl-card__supporting-text">
-        <%= locals[:card_id] %>
-      </div>
-      <div class="mdl-card__actions mdl-card--border mdl-dialog__actions">
-        <button type="button" class="mdl-button">Agree</button>
-        <button type="button" class="mdl-button close">Disagree</button>
-      </div>
+<div id="card_deck_modal" class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <%= form_for( current_user.decks.first,url: add_card_path, method: "post", controller: "decks", action: "add") do |f|%>
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Add card to deck</h2>
+  </div>
+  
+  <div class="mdl-card__supporting-text">
+    <%= locals[:card_id] %>
+  
+  </div>
+  
+  <%= select_tag(:deck_id, options_for_select(current_user.decks.map(&:id)))%>
+  <%= hidden_field_tag(:card_id, locals[:card_id])%>
+  <div class="mdl-card__actions mdl-card--border mdl-dialog__actions">
+    <%= f.submit class: "mdl-button"%>
+  </div>
+  <% end %>
+</div>
 
-      <div class="mdl-card__menu">
-        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-          <i class="material-icons">share</i>
-        </button>
-      </div>
-    </div>
-</dialog>
-
-<script>
-var dialog = document.querySelector('dialog');
-var showDialogButton = document.querySelector('#show-dialog');
-if (! dialog.showModal) {
-  dialogPolyfill.registerDialog(dialog);
-}
-showDialogButton.addEventListener('click', function() {
-  dialog.showModal();
-});
-dialog.querySelector('.close').addEventListener('click', function() {
-  dialog.close();
-});
-</script>
+ <script>
+  function show_card_deck_modal(card_id){
+    var dialog = document.querySelector('#card_deck_modal');
+    dialog.style.visibility="visible";
+    document.querySelector('#card_id').value=card_id;
+  }
+// 
+// var showDialogButton = document.querySelector('.show-dialog');
+// if (! dialog.showModal) {
+//   dialogPolyfill.registerDialog(dialog);
+// }
+// showDialogButton.addEventListener('click', function() {
+//   dialog.showModal();
+// });
+// dialog.querySelector('.close').addEventListener('click', function() {
+//   dialog.close();
+// });
+// </script>

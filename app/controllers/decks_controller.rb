@@ -27,17 +27,15 @@ class DecksController < ApplicationController
   def add
     @card = Card.find(params[:card_id])
 
-    respond_to do |format|
-      format.js
-    end
+
     
-    # @deck = Deck.find(params[:deck_id])
-    # @deck.cards << @card
-    # if @deck.save && @card.save
-    #   redirect_to @deck
-    # else
-    #   redirect_to "decks_path"
-    # end
+    @deck = Deck.find(params[:deck_id])
+    @deck.cards << @card
+    if @deck.save && @card.save
+      redirect_to @deck
+    else
+      redirect_to "decks_path"
+    end
   end
   
 end

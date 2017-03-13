@@ -20,10 +20,6 @@
 table{
     padding:0px;
 }
-dialog{
-    border:none;
-    padding:0em;
-}
 
 /******************************************************************************
                                     CARD#SHOW
@@ -148,4 +144,11 @@ dialog{
 
 .containing_cards_all .containing_card{
     display: inline-block;
+}
+
+/******************************************************************************
+                                    DECKS#ADD
+******************************************************************************/
+#card_deck_modal{
+    visibility: hidden;
 }
