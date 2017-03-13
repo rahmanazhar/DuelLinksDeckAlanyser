@@ -1,8 +1,21 @@
 <%= link_to "Deck Index", decks_path%>
+
+<div id="deck_container" class="demo-card-wide mdl-card mdl-shadow--2dp">
+    <% for i in 0..29 %>
+      <div class="mdl-card__title mdl-card--expand containing_image">
+        <% if i <@cards.length%>
+            <%= image_tag("card_#{@cards[i].id}.jpg") %>
+        <% else %>
+            <%= image_tag("placeholders/card_back.jpg") %>
+        <% end %>
+      </div>
+    <% end %>
+</div>
+
 <div class="containing_cards_all">
     <%if @cards.length>0 %>
         <% @cards.each do |card|%>
-            <%= render "/cards/show", :params => {:id => card.id, :deck_id=> @deck.id}%>
+            <% render "/cards/show", :params => {:id => card.id, :deck_id=> @deck.id}%>
         <% end %>
     <% end %>
 </div>
